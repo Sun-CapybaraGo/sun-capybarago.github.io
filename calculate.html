@@ -1,0 +1,636 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 
+<style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s19{border-bottom:1px SOLID #284e3f;background-color:#ffffff;text-align:left;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s39{border-right:1px SOLID #000000;background-color:#ffffff;}.ritz .waffle .s5{border-bottom:1px SOLID #284e3f;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s38{border-bottom:1px SOLID #000000;background-color:#ffffff;}.ritz .waffle .s4{border-bottom:1px SOLID #f6f8f9;border-right:1px SOLID #284e3f;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s30{border-bottom:1px SOLID #4a535c;background-color:#ffffff;}.ritz .waffle .s31{border-right:1px SOLID #4a535c;background-color:#ffffff;}.ritz .waffle .s32{border-bottom:1px SOLID #4a535c;border-right:1px SOLID #626e7a;background-color:#626e7a;text-align:left;color:#ffffff;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s24{border-bottom:1px SOLID #8c352d;border-right:1px SOLID #8c352d;background-color:#bb463c;text-align:left;color:#ffffff;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s1{border-bottom:1px SOLID #284e3f;border-right:1px SOLID #356854;background-color:#356854;text-align:left;color:#ffffff;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s6{border-bottom:1px SOLID #284e3f;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{border-bottom:1px SOLID #284e3f;border-right:1px SOLID #284e3f;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s10{background-color:#ffffff;text-align:left;color:#ff0000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s16{border-bottom:1px SOLID #3e4791;border-right:1px SOLID #3e4791;background-color:#535fc1;text-align:left;color:#ffffff;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s21{border-bottom:1px SOLID #8c352d;background-color:#ffffff;}.ritz .waffle .s45{border-bottom:1px SOLID #000000;background-color:#ffffff;text-align:right;color:#ff0000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #f6f8f9;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s23{border-bottom:1px SOLID #8c352d;border-right:1px SOLID #bb463c;background-color:#bb463c;text-align:left;color:#ffffff;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s44{border-bottom:1px SOLID #000000;background-color:#ffffff;text-align:right;color:#0000ff;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s33{border-bottom:1px SOLID #4a535c;border-right:1px SOLID #4a535c;background-color:#626e7a;text-align:left;color:#ffffff;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s47{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s20{border-bottom:1px SOLID #3e4791;background-color:#ffffff;text-align:left;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-bottom:1px SOLID #f6f8f9;border-right:1px SOLID #f6f8f9;background-color:#f6f8f9;text-align:left;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s43{border-bottom:1px SOLID #000000;background-color:#ffffff;text-align:right;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s17{border-bottom:1px SOLID #3e4791;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s25{border-bottom:1px SOLID #8c352d;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s27{border-bottom:1px SOLID #3e4791;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:right;color:#ff0000;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s29{background-color:#ffffff;text-align:left;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{border-right:1px SOLID #3e4791;background-color:#ffffff;}.ritz .waffle .s9{border-bottom:1px SOLID #f6f8f9;border-right:1px SOLID #284e3f;background-color:#f6f8f9;text-align:left;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s11{border-bottom:1px SOLID #3e4791;background-color:#ffffff;}.ritz .waffle .s15{border-bottom:1px SOLID #3e4791;border-right:1px SOLID #535fc1;background-color:#535fc1;text-align:left;color:#ffffff;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s28{border-bottom:1px SOLID #3e4791;border-right:1px SOLID #3e4791;background-color:#ffffff;text-align:right;color:#ff0000;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s35{border-bottom:1px SOLID #4a535c;border-right:1px SOLID #4a535c;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s12{border-bottom:1px SOLID #3e4791;background-color:#ffffff;text-align:left;color:#ff0000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s42{background-color:#ffffff;text-align:left;color:#0000ff;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s37{background-color:#ffffff;text-align:center;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{border-right:1px SOLID #284e3f;background-color:#ffffff;}.ritz .waffle .s13{border-bottom:1px SOLID #284e3f;background-color:#ffffff;}.ritz .waffle .s36{background-color:#ffffff;text-align:right;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s40{border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s22{border-right:1px SOLID #8c352d;background-color:#ffffff;}.ritz .waffle .s34{border-bottom:1px SOLID #4a535c;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s18{border-bottom:1px SOLID #3e4791;border-right:1px SOLID #3e4791;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s46{border-bottom:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s41{border-right:1px SOLID #000000;background-color:#ffffff;text-align:right;color:#000000;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s2{border-bottom:1px SOLID #284e3f;border-right:1px SOLID #284e3f;background-color:#356854;text-align:left;color:#ffffff;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}.ritz .waffle .s26{border-bottom:1px SOLID #8c352d;border-right:1px SOLID #8c352d;background-color:#ffffff;text-align:right;color:#434343;font-family:docs-Roboto,Arial;font-size:10pt;vertical-align:middle;white-space:nowrap;overflow:hidden;direction:ltr;padding:2px 8px 2px 8px;}</style></head><body><div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-vertical-handle"></th><th id="571156790C0" style="width:17px;" class="column-headers-background"></th><th id="571156790C1" style="width:129px;" class="column-headers-background"></th><th id="571156790C2" style="width:158px;" class="column-headers-background"></th><th id="571156790C3" style="width:150px;" class="column-headers-background"></th><th id="571156790C4" style="width:16px;" class="column-headers-background"></th><th id="571156790C5" style="width:96px;" class="column-headers-background"></th><th id="571156790C6" style="width:96px;" class="column-headers-background"></th><th id="571156790C7" style="width:96px;" class="column-headers-background"></th><th id="571156790C8" style="width:90px;" class="column-headers-background"></th><th id="571156790C9" style="width:90px;" class="column-headers-background"></th><th id="571156790C10" style="width:96px;" class="column-headers-background"></th><th id="571156790C11" style="width:96px;" class="column-headers-background"></th><th id="571156790C12" style="width:96px;" class="column-headers-background"></th><th id="571156790C13" style="width:96px;" class="column-headers-background"></th><th id="571156790C14" style="width:96px;" class="column-headers-background"></th><th id="571156790C15" style="width:96px;" class="column-headers-background"></th><th id="571156790C16" style="width:110px;" class="column-headers-background"></th><th id="571156790C17" style="width:110px;" class="column-headers-background"></th><th id="571156790C18" style="width:122px;" class="column-headers-background"></th><th id="571156790C19" style="width:122px;" class="column-headers-background"></th><th id="571156790C20" style="width:80px;" class="column-headers-background"></th><th id="571156790C21" style="width:80px;" class="column-headers-background"></th><th id="571156790C22" style="width:89px;" class="column-headers-background"></th></tr></thead><tbody><tr style="height: 30px"><th id="571156790R0" style="height: 30px;" class=""><div class="" style="line-height: 30px;"></div></th><td class="s0"></td><td class="s1" dir="ltr">生命值百分比</td><td class="s1" dir="ltr">攻擊力</td><td class="s2" dir="ltr">防禦力百分比</td><td class="s0"></td><td class="s1" dir="ltr">龍女等級</td><td class="s1" dir="ltr"><div style="display:flex; vertical-align:middle"><div>龍女星等</div></div></td><td class="s1" dir="ltr">豬等級</td><td class="s1" dir="ltr">豬星等</td><td class="s1" dir="ltr">熊貓等級</td><td class="s1" dir="ltr">熊貓星等</td><td class="s1" dir="ltr">小熊等級</td><td class="s1" dir="ltr">小熊星等</td><td class="s1" dir="ltr">悟空等級</td><td class="s1" dir="ltr">悟空星等</td><td class="s1" dir="ltr">加加林等級</td><td class="s2" dir="ltr">加加林星等</td><td class="s0"></td><td class="s1" dir="ltr"><div style="display:flex; vertical-align:middle"><svg width="1.25em" viewBox="0 0 20 20" style="display: inline; padding-right: max(6px, 0.25em)"><g id="percent-table-header-icon"><path d="M6.25 9.16667C5.44444 9.16667 4.75695 8.88194 4.1875 8.3125C3.61806 7.74305 3.33333 7.05556 3.33333 6.25C3.33333 5.44444 3.61806 4.75694 4.1875 4.1875C4.75695 3.61806 5.44444 3.33333 6.25 3.33333C7.05556 3.33333 7.74306 3.61806 8.3125 4.1875C8.88194 4.75694 9.16667 5.44444 9.16667 6.25C9.16667 7.05556 8.88194 7.74305 8.3125 8.3125C7.74306 8.88194 7.05556 9.16667 6.25 9.16667ZM6.25 7.5C6.59722 7.5 6.89236 7.37847 7.13542 7.13542C7.37847 6.89236 7.5 6.59722 7.5 6.25C7.5 5.90278 7.37847 5.60764 7.13542 5.36458C6.89236 5.12153 6.59722 5 6.25 5C5.90278 5 5.60764 5.12153 5.36458 5.36458C5.12153 5.60764 5 5.90278 5 6.25C5 6.59722 5.12153 6.89236 5.36458 7.13542C5.60764 7.37847 5.90278 7.5 6.25 7.5ZM13.75 16.6667C12.9444 16.6667 12.2569 16.3819 11.6875 15.8125C11.1181 15.2431 10.8333 14.5556 10.8333 13.75C10.8333 12.9444 11.1181 12.2569 11.6875 11.6875C12.2569 11.1181 12.9444 10.8333 13.75 10.8333C14.5556 10.8333 15.2431 11.1181 15.8125 11.6875C16.3819 12.2569 16.6667 12.9444 16.6667 13.75C16.6667 14.5556 16.3819 15.2431 15.8125 15.8125C15.2431 16.3819 14.5556 16.6667 13.75 16.6667ZM13.75 15C14.0972 15 14.3924 14.8785 14.6354 14.6354C14.8785 14.3924 15 14.0972 15 13.75C15 13.4028 14.8785 13.1076 14.6354 12.8646C14.3924 12.6215 14.0972 12.5 13.75 12.5C13.4028 12.5 13.1076 12.6215 12.8646 12.8646C12.6215 13.1076 12.5 13.4028 12.5 13.75C12.5 14.0972 12.6215 14.3924 12.8646 14.6354C13.1076 14.8785 13.4028 15 13.75 15ZM4.5 16.6667L3.33333 15.5L15.5 3.33333L16.6667 4.5L4.5 16.6667Z" fill="#ffffff"></path></g></svg><div>生命加成</div></div></td><td class="s2" dir="ltr"><div style="display:flex; vertical-align:middle"><svg width="1.25em" viewBox="0 0 20 20" style="display: inline; padding-right: max(6px, 0.25em)"><g id="percent-table-header-icon"><path d="M6.25 9.16667C5.44444 9.16667 4.75695 8.88194 4.1875 8.3125C3.61806 7.74305 3.33333 7.05556 3.33333 6.25C3.33333 5.44444 3.61806 4.75694 4.1875 4.1875C4.75695 3.61806 5.44444 3.33333 6.25 3.33333C7.05556 3.33333 7.74306 3.61806 8.3125 4.1875C8.88194 4.75694 9.16667 5.44444 9.16667 6.25C9.16667 7.05556 8.88194 7.74305 8.3125 8.3125C7.74306 8.88194 7.05556 9.16667 6.25 9.16667ZM6.25 7.5C6.59722 7.5 6.89236 7.37847 7.13542 7.13542C7.37847 6.89236 7.5 6.59722 7.5 6.25C7.5 5.90278 7.37847 5.60764 7.13542 5.36458C6.89236 5.12153 6.59722 5 6.25 5C5.90278 5 5.60764 5.12153 5.36458 5.36458C5.12153 5.60764 5 5.90278 5 6.25C5 6.59722 5.12153 6.89236 5.36458 7.13542C5.60764 7.37847 5.90278 7.5 6.25 7.5ZM13.75 16.6667C12.9444 16.6667 12.2569 16.3819 11.6875 15.8125C11.1181 15.2431 10.8333 14.5556 10.8333 13.75C10.8333 12.9444 11.1181 12.2569 11.6875 11.6875C12.2569 11.1181 12.9444 10.8333 13.75 10.8333C14.5556 10.8333 15.2431 11.1181 15.8125 11.6875C16.3819 12.2569 16.6667 12.9444 16.6667 13.75C16.6667 14.5556 16.3819 15.2431 15.8125 15.8125C15.2431 16.3819 14.5556 16.6667 13.75 16.6667ZM13.75 15C14.0972 15 14.3924 14.8785 14.6354 14.6354C14.8785 14.3924 15 14.0972 15 13.75C15 13.4028 14.8785 13.1076 14.6354 12.8646C14.3924 12.6215 14.0972 12.5 13.75 12.5C13.4028 12.5 13.1076 12.6215 12.8646 12.8646C12.6215 13.1076 12.5 13.4028 12.5 13.75C12.5 14.0972 12.6215 14.3924 12.8646 14.6354C13.1076 14.8785 13.4028 15 13.75 15ZM4.5 16.6667L3.33333 15.5L15.5 3.33333L16.6667 4.5L4.5 16.6667Z" fill="#ffffff"></path></g></svg><div>攻擊加成</div></div></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R1" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s0"></td><td class="s3" dir="ltr"><input id="table1_1" type="number" name="table_1_1_data" list="1_1" style="width: 120px;">%</td><td class="s3" dir="ltr"><input id="table1_2" type="number" name="table_1_2_data" list="1_2" style="
+    width: 120px;
+">%</td><td class="s4" dir="ltr"><input id="table1_3" type="number" name="table_1_3_data" list="1_3" style="
+    width: 120px;
+">%</td><td class="s0"></td><td class="s5" dir="ltr"><input id="adventurer_level_1" type="number" min="0" max="100" name="adventurer_level_1_data" list="adventurer_1" value="100" style="
+    width: 80px;
+"></td><td class="s6" dir="ltr"><select id="adventurer_star_1" name="star_1" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s5" dir="ltr"><input id="adventurer_level_2" type="number" min="0" max="100" name="adventurer_level_2_data" list="adventurer_1" style="
+    width: 80px;
+"></td><td class="s5" dir="ltr" style="
+    width: 80px;
+"><select id="adventurer_star_2" name="star_2" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s5" dir="ltr"><input id="adventurer_level_3" type="number" min="0" max="100" name="adventurer_level_3_data" list="adventurer_1" style="
+    width: 80px;
+"></td><td class="s5" dir="ltr"><select id="adventurer_star_3" name="star_3" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s5" dir="ltr"><input id="adventurer_level_4" type="number" name="adventurer_level_4_data" list="adventurer_1" style="
+    width: 80px;
+"></td><td class="s5" dir="ltr"><select id="adventurer_star_4" name="star_4" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s5" dir="ltr" style="
+    width: 80px;
+"><input id="adventurer_level_5" type="number" min="0" max="100" name="adventurer_level_5_data" list="adventurer_1" style="
+    width: 80px;
+"></td><td class="s5" dir="ltr"><select id="adventurer_star_5" name="star_5" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s5" dir="ltr"><input id="adventurer_level_6" type="number" min="0" max="100" name="adventurer_level_6_data" list="adventurer_1" style="
+    width: 80px;
+"></td><td class="s7" dir="ltr"><select id="adventurer_star_6" name="star_6" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s0"></td><td class="s5"><span id="adventurer_plus_0">60%</span></td><td class="s7"><span id="adventurer_plus_1">60%</span></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R2" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s0"></td><td class="s8" dir="ltr">全局生命值百分比</td><td class="s8" dir="ltr">全局攻擊力百分比</td><td class="s9" dir="ltr">全局防禦力百分比</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="s10" dir="ltr"></td><td class="s10"></td><td class="s10"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R3" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s0"></td><td class="s5" dir="ltr"><input id="table1_4" type="number" name="table_1_4_data" list="1_2" style="
+    width: 120px;
+">%</td><td class="s5" dir="ltr"><input id="table1_5" type="number" name="table_1_5_data" list="1_5" style="
+    width: 120px;
+">%</td><td class="s7" dir="ltr"><input id="table1_6" type="number" name="table_1_6_data" list="1_6" style="
+    width: 120px;
+">%</td><td></td><td class="s11"></td><td class="s11"></td><td class="s11"></td><td class="s11"></td><td class="s11"></td><td class="s11"></td><td class="s11"></td><td class="s12"></td><td class="s12"></td><td class="s12"></td><td class="s11"></td><td class="s11"></td><td></td><td class="s11"></td><td class="s11"></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R4" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td></td><td class="s13"></td><td class="s13"></td><td class="s13"></td><td class="s14"></td><td class="s15" dir="ltr">龍女等級</td><td class="s15" dir="ltr">龍女星等</td><td class="s15" dir="ltr">豬等級</td><td class="s15" dir="ltr">豬星等</td><td class="s15" dir="ltr">熊貓等級</td><td class="s15" dir="ltr">熊貓星等</td><td class="s15" dir="ltr">小熊等級</td><td class="s15" dir="ltr">小熊星等</td><td class="s15" dir="ltr">悟空等級</td><td class="s15" dir="ltr">悟空星等</td><td class="s15" dir="ltr">加加林等級</td><td class="s16" dir="ltr">加加林星等</td><td class="s14"></td><td class="s15" dir="ltr"><div style="display:flex; vertical-align:middle"><svg width="1.25em" viewBox="0 0 20 20" style="display: inline; padding-right: max(6px, 0.25em)"><g id="percent-table-header-icon"><path d="M6.25 9.16667C5.44444 9.16667 4.75695 8.88194 4.1875 8.3125C3.61806 7.74305 3.33333 7.05556 3.33333 6.25C3.33333 5.44444 3.61806 4.75694 4.1875 4.1875C4.75695 3.61806 5.44444 3.33333 6.25 3.33333C7.05556 3.33333 7.74306 3.61806 8.3125 4.1875C8.88194 4.75694 9.16667 5.44444 9.16667 6.25C9.16667 7.05556 8.88194 7.74305 8.3125 8.3125C7.74306 8.88194 7.05556 9.16667 6.25 9.16667ZM6.25 7.5C6.59722 7.5 6.89236 7.37847 7.13542 7.13542C7.37847 6.89236 7.5 6.59722 7.5 6.25C7.5 5.90278 7.37847 5.60764 7.13542 5.36458C6.89236 5.12153 6.59722 5 6.25 5C5.90278 5 5.60764 5.12153 5.36458 5.36458C5.12153 5.60764 5 5.90278 5 6.25C5 6.59722 5.12153 6.89236 5.36458 7.13542C5.60764 7.37847 5.90278 7.5 6.25 7.5ZM13.75 16.6667C12.9444 16.6667 12.2569 16.3819 11.6875 15.8125C11.1181 15.2431 10.8333 14.5556 10.8333 13.75C10.8333 12.9444 11.1181 12.2569 11.6875 11.6875C12.2569 11.1181 12.9444 10.8333 13.75 10.8333C14.5556 10.8333 15.2431 11.1181 15.8125 11.6875C16.3819 12.2569 16.6667 12.9444 16.6667 13.75C16.6667 14.5556 16.3819 15.2431 15.8125 15.8125C15.2431 16.3819 14.5556 16.6667 13.75 16.6667ZM13.75 15C14.0972 15 14.3924 14.8785 14.6354 14.6354C14.8785 14.3924 15 14.0972 15 13.75C15 13.4028 14.8785 13.1076 14.6354 12.8646C14.3924 12.6215 14.0972 12.5 13.75 12.5C13.4028 12.5 13.1076 12.6215 12.8646 12.8646C12.6215 13.1076 12.5 13.4028 12.5 13.75C12.5 14.0972 12.6215 14.3924 12.8646 14.6354C13.1076 14.8785 13.4028 15 13.75 15ZM4.5 16.6667L3.33333 15.5L15.5 3.33333L16.6667 4.5L4.5 16.6667Z" fill="#ffffff"></path></g></svg><div>新生命加成</div></div></td><td class="s16" dir="ltr"><div style="display:flex; vertical-align:middle"><svg width="1.25em" viewBox="0 0 20 20" style="display: inline; padding-right: max(6px, 0.25em)"><g id="percent-table-header-icon"><path d="M6.25 9.16667C5.44444 9.16667 4.75695 8.88194 4.1875 8.3125C3.61806 7.74305 3.33333 7.05556 3.33333 6.25C3.33333 5.44444 3.61806 4.75694 4.1875 4.1875C4.75695 3.61806 5.44444 3.33333 6.25 3.33333C7.05556 3.33333 7.74306 3.61806 8.3125 4.1875C8.88194 4.75694 9.16667 5.44444 9.16667 6.25C9.16667 7.05556 8.88194 7.74305 8.3125 8.3125C7.74306 8.88194 7.05556 9.16667 6.25 9.16667ZM6.25 7.5C6.59722 7.5 6.89236 7.37847 7.13542 7.13542C7.37847 6.89236 7.5 6.59722 7.5 6.25C7.5 5.90278 7.37847 5.60764 7.13542 5.36458C6.89236 5.12153 6.59722 5 6.25 5C5.90278 5 5.60764 5.12153 5.36458 5.36458C5.12153 5.60764 5 5.90278 5 6.25C5 6.59722 5.12153 6.89236 5.36458 7.13542C5.60764 7.37847 5.90278 7.5 6.25 7.5ZM13.75 16.6667C12.9444 16.6667 12.2569 16.3819 11.6875 15.8125C11.1181 15.2431 10.8333 14.5556 10.8333 13.75C10.8333 12.9444 11.1181 12.2569 11.6875 11.6875C12.2569 11.1181 12.9444 10.8333 13.75 10.8333C14.5556 10.8333 15.2431 11.1181 15.8125 11.6875C16.3819 12.2569 16.6667 12.9444 16.6667 13.75C16.6667 14.5556 16.3819 15.2431 15.8125 15.8125C15.2431 16.3819 14.5556 16.6667 13.75 16.6667ZM13.75 15C14.0972 15 14.3924 14.8785 14.6354 14.6354C14.8785 14.3924 15 14.0972 15 13.75C15 13.4028 14.8785 13.1076 14.6354 12.8646C14.3924 12.6215 14.0972 12.5 13.75 12.5C13.4028 12.5 13.1076 12.6215 12.8646 12.8646C12.6215 13.1076 12.5 13.4028 12.5 13.75C12.5 14.0972 12.6215 14.3924 12.8646 14.6354C13.1076 14.8785 13.4028 15 13.75 15ZM4.5 16.6667L3.33333 15.5L15.5 3.33333L16.6667 4.5L4.5 16.6667Z" fill="#ffffff"></path></g></svg><div>新攻擊加成</div></div></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R5" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s0"></td><td class="s1" dir="ltr">生命值（加冒險者）</td><td class="s1" dir="ltr">攻擊力（加冒險者）</td><td class="s2" dir="ltr">防禦力（加冒險者）</td><td class="s14"></td><td class="s17" dir="ltr"><input id="new_adventurer_level_1" type="number" min="0" max="100" name="anew_dventurer_level_1_data" list="adventurer_2" value="100" style="
+    width: 80px;
+"></td><td class="s17" dir="ltr"><select id="new_adventurer_star_1" name="new_star_1" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s17" dir="ltr"><input id="new_adventurer_level_2" type="number" min="0" max="100" name="anew_dventurer_level_2_data" list="adventurer_2" style="
+    width: 80px;
+"></td><td class="s17" dir="ltr"><select id="new_adventurer_star_2" name="new_star_2" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s17" dir="ltr"><input id="new_adventurer_level_3" type="number" name="anew_dventurer_level_3_data" list="adventurer_2" style="
+    width: 80px;
+"></td><td class="s17" dir="ltr" style="
+    width: 80px;
+"><select id="new_adventurer_star_3" name="new_star_3" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s17" dir="ltr"><input id="new_adventurer_level_4" type="number" min="0" max="100" name="anew_dventurer_level_4_data" list="adventurer_2" style="
+    width: 80px;
+"></td><td class="s17" dir="ltr"><select id="new_adventurer_star_4" name="new_star_4" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s17" dir="ltr"><input id="new_adventurer_level_5" type="number" min="0" max="100" name="anew_dventurer_level_5_data" list="adventurer_2" style="
+    width: 80px;
+"></td><td class="s17" dir="ltr"><select id="new_adventurer_star_5" name="new_star_5" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s17" dir="ltr"><input id="new_adventurer_level_6" type="number" min="0" max="100" name="anew_dventurer_level_6_data" list="adventurer_2" style="
+    width: 80px;
+"></td><td class="s18" dir="ltr"><select id="new_adventurer_star_6" name="new_star_6" style="
+    width: 80px;
+">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+</select></td><td class="s14"></td><td class="s17"><span id="adventurer_new_plus_0">60%</span></td><td class="s18"><span id="adventurer_new_plus_1">60%</span></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R6" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s0"></td><td class="s5" dir="ltr"><input id="table2_1" type="number" name="table_2_1_data" list="2_1" style="
+    width: 135px;" step="0.01"></td><td class="s5" dir="ltr"><input id="table2_2" type="number" name="table_2_2_data" list="2_2" style="
+    width: 135px;" step="0.01"></td><td class="s7" dir="ltr"><input id="table2_3" type="number" name="table_2_3_data" list="2_3" style="
+    width: 135px;" step="0.0001"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="s10"></td><td class="s10"></td><td class="s10"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R7" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td></td><td class="s19" dir="ltr"></td><td class="s13"></td><td class="s13"></td><td></td><td class="s20" dir="ltr">冒險者（新）</td><td class="s11"></td><td class="s11"></td><td></td><td></td><td></td><td></td><td class="s10"></td><td class="s10"></td><td class="s10"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R8" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s0"></td><td class="s1" dir="ltr">冒險者生命值</td><td class="s1" dir="ltr">冒險者攻擊力</td><td class="s2" dir="ltr">冒險者防禦力</td><td class="s14"></td><td class="s15" dir="ltr"><div style="display:flex; vertical-align:middle"><div>生命值</div></div></td><td class="s15" dir="ltr"><div style="display:flex; vertical-align:middle"><div>攻擊力</div></div></td><td class="s16" dir="ltr">防禦力</td><td></td><td></td><td></td><td></td><td class="s10"></td><td class="s10"></td><td class="s10"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R9" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s0"></td><td class="s5" dir="ltr"><input id="table3_1" type="number" name="table_3_1_data" list="3_1" style="
+    width: 135px;" step="0.01"></td><td class="s5" dir="ltr"><input id="table3_2" type="number" name="table_3_2_data" list="3_2" style="
+    width: 135px;" step="0.01"></td><td class="s7" dir="ltr"><input id="table3_3" type="number" name="table_3_3_data" list="3_3" style="
+    width: 135px;
+"></td><td class="s14"></td><td class="s17" dir="ltr"><span id="adventurer_new_1">0</span></td><td class="s17" dir="ltr"><span id="adventurer_new_2">0</span></td><td class="s18" dir="ltr"><span id="adventurer_new_3">0</span></td><td></td><td></td><td></td><td></td><td class="s10"></td><td class="s10"></td><td class="s10"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 20px"><th id="571156790R10" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px"></div></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="s10"></td><td class="s10"></td><td class="s10"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R11" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td></td><td class="s13">冒險者資質</td><td class="s13"><select id="adventurer" name="adventurer" style="
+    width: 80px;
+">
+  <option value="龍女">龍女</option>
+  <option value="加加林">加加林</option>
+  <option value="悟空">悟空</option>
+</select></td><td class="s13"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="s10"></td><td class="s10"></td><td class="s10"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R12" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s0"></td><td class="s1" dir="ltr">力量</td><td class="s1" dir="ltr">體質</td><td class="s2" dir="ltr">耐力</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="s10"></td><td class="s10"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R13" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s0"></td><td class="s5" dir="ltr"><input id="table4_1" type="number" name="table_4_1_data" list="4_1" style="
+    width: 135px;" value="1.15" step="0.01"></td><td class="s5" dir="ltr"><input id="table4_2" type="number" name="table_4_2_data" list="4_1" style="
+    width: 135px;" value="1.05" step="0.01"></td><td class="s7" dir="ltr"><input id="table4_3" type="number" name="table_4_3_data" list="4_3" style="
+    width: 135px;" value="1" step="0.0001"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 20px"><th id="571156790R14" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px"></div></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 20px"><th id="571156790R15" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px"></div></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R16" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td></td><td class="s21">最終屬性</td><td class="s21"></td><td class="s21"></td><td></td><td class="s11"></td><td class="s11"></td><td class="s11"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R17" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s22"></td><td class="s23" dir="ltr"><div style="display:flex; vertical-align:middle"><div>生命力</div></div></td><td class="s23" dir="ltr"><div style="display:flex; vertical-align:middle"><div>攻擊力</div></div></td><td class="s24" dir="ltr"><div style="display:flex; vertical-align:middle"><div>防禦力</div></div></td><td class="s14"></td><td class="s15" dir="ltr"><div style="display:flex; vertical-align:middle"><div>新生命力</div></div></td><td class="s15" dir="ltr"><div style="display:flex; vertical-align:middle"><div>新攻擊力</div></div></td><td class="s16" dir="ltr"><div style="display:flex; vertical-align:middle"><div>新防禦力</div></div></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R18" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s22"></td><td class="s25"><span id="result1">0</span></td><td class="s25"><span id="result2">0</span></td><td class="s26"><span id="result3">0</span></td><td class="s14"></td><td class="s27"><span id="result4">0</span></td><td class="s27"><span id="result5">0</span></td><td class="s28"><span id="result6">0</span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="s29"></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 20px"><th id="571156790R19" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px"></div></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 20px"><th id="571156790R20" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px"></div></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 20px"><th id="571156790R21" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px"></div></th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R22" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td></td><td class="s30">冒險者加成前屬性</td><td class="s30"></td><td class="s30"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R23" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s31"></td><td class="s32" dir="ltr">基礎生命</td><td class="s32" dir="ltr">基礎攻擊</td><td class="s33" dir="ltr">基礎防禦</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="height: 30px"><th id="571156790R24" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th><td class="s31"></td><td class="s34" dir="ltr"><span id="adventurer_base_1">0</span></td><td class="s34" dir="ltr"><span id="adventurer_base_2">0</span></td><td class="s35" dir="ltr"><span id="adventurer_base_3">0</span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div>
+<script>
+restoreData();
+let allInput =document.querySelectorAll('input');
+allInput.forEach(curInput => {
+  curInput.addEventListener('change', cal)});
+
+
+let allSelect =document.querySelectorAll('select');
+allSelect.forEach(curSelect => {
+    if(curSelect.id == 'adventurer'){
+                curSelect.addEventListener('change', changeAdventurer);
+
+    }else{
+        curSelect.addEventListener('change', cal);
+    }
+  });
+
+//let adventurerSelect =document.querySelector('#adventurer');
+//adventurerSelect.addEventListener('change', changeAdventurer);
+
+function changeAdventurer(event){
+    let value =event.target.value;
+    if(value == '龍女'){
+        document.querySelector('#table4_1').value = 1.15;
+        document.querySelector('#table4_2').value = 1.05 ;
+        document.querySelector('#table4_3').value = 1;
+    }else if(value == '悟空'){
+        document.querySelector('#table4_1').value = 1.1;
+        document.querySelector('#table4_2').value =1.1;
+        document.querySelector('#table4_3').value=1;
+    }else if(value == '加加林'){
+        document.querySelector('#table4_1').value = 1.2;
+        document.querySelector('#table4_2').value =1;
+        document.querySelector('#table4_3').value=1;
+    }
+
+    cal(true);
+}  
+
+function restoreData(){
+
+    setHtmlValue(document.querySelector('#table1_1'),localStorage.getItem('table1_1_value')); //生命值百分比
+    setHtmlValue(document.querySelector('#table1_2'),localStorage.getItem('table1_2_value')); //攻擊力百分比
+    setHtmlValue(document.querySelector('#table1_3'),localStorage.getItem('table1_3_value')); //防禦力百分比
+    setHtmlValue(document.querySelector('#table1_4'),localStorage.getItem('table1_4_value')); //全局生命值百分比
+    setHtmlValue(document.querySelector('#table1_5'),localStorage.getItem('table1_5_value')); //全局攻擊力百分比
+    setHtmlValue(document.querySelector('#table1_6'),localStorage.getItem('table1_6_value')); //全局防禦力百分比
+    setHtmlValue(document.querySelector('#table2_1'),localStorage.getItem('table2_1_value')); //生命值（加冒險者）
+    setHtmlValue(document.querySelector('#table2_2'),localStorage.getItem('table2_2_value')); //攻擊力（加冒險者）
+    setHtmlValue(document.querySelector('#table2_3'),localStorage.getItem('table2_3_value')); //防禦力（加冒險者）
+    setHtmlValue(document.querySelector('#table3_1'),localStorage.getItem('table3_1_value')); //冒險者生命值
+    setHtmlValue(document.querySelector('#table3_2'),localStorage.getItem('table3_2_value')); //冒險者攻擊力
+    setHtmlValue(document.querySelector('#table3_3'),localStorage.getItem('table3_3_value')); //冒險者防禦力
+    setHtmlValue(document.querySelector('#table4_1'),localStorage.getItem('table4_1_value')); //資質力量
+    setHtmlValue(document.querySelector('#table4_2'),localStorage.getItem('table4_2_value')); //資質體質
+    setHtmlValue(document.querySelector('#table4_3'),localStorage.getItem('table4_3_value')); //資質耐力
+    setHtmlValue(document.querySelector('#adventurer_level_1'),localStorage.getItem('adventurer_level_girl_value')); //龍女等級
+    setHtmlValue(document.querySelector('#adventurer_star_1'),localStorage.getItem('adventurer_star_girl_value')); //龍女星級
+    setHtmlValue(document.querySelector('#adventurer_level_2'),localStorage.getItem('adventurer_level_pig_value')); //豬等級
+    setHtmlValue(document.querySelector('#adventurer_star_2'),localStorage.getItem('adventurer_star_pig_value')); //豬星級
+    setHtmlValue(document.querySelector('#adventurer_level_3'),localStorage.getItem('adventurer_level_panda_value')); //熊貓等級
+    setHtmlValue(document.querySelector('#adventurer_star_3'),localStorage.getItem('adventurer_star_panda_value')); //熊貓星級
+    setHtmlValue(document.querySelector('#adventurer_level_4'),localStorage.getItem('adventurer_level_prince_value')); //小熊等級
+    setHtmlValue(document.querySelector('#adventurer_star_4'),localStorage.getItem('adventurer_star_prince_value')); //小熊星級
+    setHtmlValue(document.querySelector('#adventurer_level_5'),localStorage.getItem('adventurer_level_empty_value')); //悟空等級
+    setHtmlValue(document.querySelector('#adventurer_star_5'),localStorage.getItem('adventurer_star_empty_value')); //悟空星級
+    setHtmlValue(document.querySelector('#adventurer_level_6'),localStorage.getItem('adventurer_level_add_value')); //加加林等級
+    setHtmlValue(document.querySelector('#adventurer_star_6'),localStorage.getItem('adventurer_star_add_value')); //加加林星級
+
+    setHtmlValue(document.querySelector('#new_adventurer_level_1'),localStorage.getItem('new_adventurer_level_girl_value')); //龍女等級
+    setHtmlValue(document.querySelector('#new_adventurer_star_1'),localStorage.getItem('new_adventurer_star_girl_value')); //龍女星級
+    setHtmlValue(document.querySelector('#new_adventurer_level_2'),localStorage.getItem('new_adventurer_level_pig_value')); //豬等級
+    setHtmlValue(document.querySelector('#new_adventurer_star_2'),localStorage.getItem('new_adventurer_star_pig_value')); //豬星級
+    setHtmlValue(document.querySelector('#new_adventurer_level_3'),localStorage.getItem('new_adventurer_level_panda_value')); //熊貓等級
+    setHtmlValue(document.querySelector('#new_adventurer_star_3'),localStorage.getItem('new_adventurer_star_panda_value')); //熊貓星級
+    setHtmlValue(document.querySelector('#new_adventurer_level_4'),localStorage.getItem('new_adventurer_level_prince_value')); //小熊等級
+    setHtmlValue(document.querySelector('#new_adventurer_star_4'),localStorage.getItem('new_adventurer_star_prince_value')); //小熊星級
+    setHtmlValue(document.querySelector('#new_adventurer_level_5'),localStorage.getItem('new_adventurer_level_empty_value')); //悟空等級
+    setHtmlValue(document.querySelector('#new_adventurer_star_5'),localStorage.getItem('new_adventurer_star_empty_value')); //悟空星級
+    setHtmlValue(document.querySelector('#new_adventurer_level_6'),localStorage.getItem('new_adventurer_level_add_value')); //加加林等級
+    setHtmlValue(document.querySelector('#new_adventurer_star_6'),localStorage.getItem('new_adventurer_star_add_value')); //加加林星級
+
+    setHtmlValue(document.querySelector('#adventurer'),localStorage.getItem('adventurerSelect')); //加加林星級
+    
+    let value = localStorage.getItem('adventurerSelect');
+
+    if(value && value == '龍女'){
+        document.querySelector('#table4_1').value = 1.15;
+        document.querySelector('#table4_2').value = 1.05 ;
+        document.querySelector('#table4_3').value = 1;
+    }else if(value &&  value == '悟空'){
+        document.querySelector('#table4_1').value = 1.1;
+        document.querySelector('#table4_2').value =1.1;
+        document.querySelector('#table4_3').value=1;
+    }else if(value &&  value == '加加林'){
+        document.querySelector('#table4_1').value = 1.2;
+        document.querySelector('#table4_2').value =1;
+        document.querySelector('#table4_3').value=1;
+    }
+
+    cal(false);
+
+
+
+}
+
+function setHtmlValue(htmlQuerySelector, value){
+    if(value && value !='NaN'){
+        htmlQuerySelector.value = value;
+    }
+
+}
+
+
+function cal(is_storage =true) {
+     let  adventurer_girl = {level_value:0.15, star_value:0.25,level:{10:{type:"pow" ,all:0},20:{type: "hp",all:0},30:{type:"pow",all:1},40:{type:"hp" ,all:0},60:{type:"hp" ,all:1},70:{type: "pow",all:0},80:{type: "hp",all:0},90:{type:"pow" ,all:1}},
+                              star:{1:{type:"pow" ,all:1},3:{type:"hp" ,all:1},6:{type:"pow" ,all:1},9:{type:"hp" ,all:1}}}; //type pow,hp 攻擊 , type 1 生命 , all 全域
+     let  adventurer_add =  { level:{10:{type:"pow" ,all:0},20:{type: "hp",all:0},30:{type:"pow",all:1},40:{type:"hp" ,all:0},60:{type:"hp" ,all:1},70:{type: "pow",all:0},80:{type: "hp",all:0},90:{type:"pow" ,all:1}  },
+                                star:{1:{type:"pow" ,all:1},3:{type:"hp" ,all:1},6:{type:"pow" ,all:1},9:{type:"hp" ,all:1}}};
+     let  adventurer_empty ={ level:{10:{type:"pow" ,all:0},20:{type: "hp",all:0},30:{type:"hp",all:1},40:{type:"hp" ,all:0},60:{type:"pow" ,all:1},70:{type: "pow",all:0},80:{type: "hp",all:0},90:{type:"hp" ,all:1}  },
+                            star:{1:{type:"pow" ,all:1},3:{type:"hp" ,all:1},6:{type:"pow" ,all:1},9:{type:"hp" ,all:1}}};
+
+    let  adventurer_pig ={level_value:0.05, star_value:0.10,level:{10:{type:"pow" ,all:0},20:{type: "hp",all:0},30:{type:"pow",all:1},40:{type:"hp" ,all:0},60:{type:"hp" ,all:1},70:{type: "pow",all:0},80:{type: "hp",all:0},90:{type:"hp" ,all:1}},
+                              star:{1:{type:"pow" ,all:1},3:{type:"hp" ,all:1},6:{type:"pow" ,all:1},9:{type:"hp" ,all:1}}};
+
+    let  adventurer_panda ={level_value:0.10, star_value:0.15,level:{10:{type:"pow" ,all:0},20:{type: "hp",all:0},30:{type:"pow",all:1},40:{type:"hp" ,all:0},60:{type:"hp" ,all:1},70:{type: "pow",all:0},80:{type: "hp",all:0},90:{type:"pow" ,all:1}},
+                              star:{1:{type:"pow" ,all:1},3:{type:"hp" ,all:1},6:{type:"pow" ,all:1},9:{type:"hp" ,all:1}}};
+
+    let  adventurer_prince ={level_value:0.10, star_value:0.20,level:{10:{type:"pow" ,all:0},20:{type: "hp",all:0},30:{type:"pow",all:1},40:{type:"hp" ,all:0},60:{type:"hp" ,all:1},70:{type: "pow",all:0},80:{type: "hp",all:0},90:{type:"hp" ,all:1}},
+                              star:{1:{type:"pow" ,all:1},3:{type:"hp" ,all:1},6:{type:"pow" ,all:1},9:{type:"hp" ,all:1}}};
+
+
+     let table1_1_value = parseFloat(document.querySelector('#table1_1').value); //生命值百分比
+     let table1_2_value = parseFloat(document.querySelector('#table1_2').value); //攻擊力百分比
+     let table1_3_value = parseFloat(document.querySelector('#table1_3').value); //防禦力百分比
+     let table1_4_value = parseFloat(document.querySelector('#table1_4').value); //全局生命值百分比
+     let table1_5_value = parseFloat(document.querySelector('#table1_5').value); //全局攻擊力百分比
+     let table1_6_value = parseFloat(document.querySelector('#table1_6').value); //全局防禦力百分比
+     let table2_1_value = parseFloat(document.querySelector('#table2_1').value); //生命值（加冒險者）
+     let table2_2_value = parseFloat(document.querySelector('#table2_2').value); //攻擊力（加冒險者）
+     let table2_3_value = parseFloat(document.querySelector('#table2_3').value); //防禦力（加冒險者）
+     let table3_1_value = parseFloat(document.querySelector('#table3_1').value); //冒險者生命值
+     let table3_2_value = parseFloat(document.querySelector('#table3_2').value); //冒險者攻擊力
+     let table3_3_value = parseFloat(document.querySelector('#table3_3').value); //冒險者防禦力
+     let table4_1_value = parseFloat(document.querySelector('#table4_1').value); //資質力量
+     let table4_2_value = parseFloat(document.querySelector('#table4_2').value); //資質體質
+     let table4_3_value = parseFloat(document.querySelector('#table4_3').value); //資質耐力
+     let adventurer_level_girl_value = parseInt(document.querySelector('#adventurer_level_1').value); //龍女等級
+     let adventurer_star_girl_value = parseInt(document.querySelector('#adventurer_star_1').value); //龍女星級
+     let adventurer_level_pig_value = parseInt(document.querySelector('#adventurer_level_2').value); //豬等級
+     let adventurer_star_pig_value = parseInt(document.querySelector('#adventurer_star_2').value); //豬星級
+     let adventurer_level_panda_value = parseInt(document.querySelector('#adventurer_level_3').value); //熊貓等級
+     let adventurer_star_panda_value = parseInt(document.querySelector('#adventurer_star_3').value); //熊貓星級
+     let adventurer_level_prince_value = parseInt(document.querySelector('#adventurer_level_4').value); //小熊等級
+     let adventurer_star_prince_value = parseInt(document.querySelector('#adventurer_star_4').value); //小熊星級
+     let adventurer_level_empty_value = parseInt(document.querySelector('#adventurer_level_5').value); //悟空等級
+     let adventurer_star_empty_value = parseInt(document.querySelector('#adventurer_star_5').value); //悟空星級
+     let adventurer_level_add_value = parseInt(document.querySelector('#adventurer_level_6').value); //加加林等級
+     let adventurer_star_add_value = parseInt(document.querySelector('#adventurer_star_6').value); //加加林星級
+
+     let new_adventurer_level_girl_value = parseInt(document.querySelector('#new_adventurer_level_1').value); //龍女等級
+     let new_adventurer_star_girl_value = parseInt(document.querySelector('#new_adventurer_star_1').value); //龍女星級
+     let new_adventurer_level_pig_value = parseInt(document.querySelector('#new_adventurer_level_2').value); //豬等級
+     let new_adventurer_star_pig_value = parseInt(document.querySelector('#new_adventurer_star_2').value); //豬星級
+     let new_adventurer_level_panda_value = parseInt(document.querySelector('#new_adventurer_level_3').value); //熊貓等級
+     let new_adventurer_star_panda_value = parseInt(document.querySelector('#new_adventurer_star_3').value); //熊貓星級
+     let new_adventurer_level_prince_value = parseInt(document.querySelector('#new_adventurer_level_4').value); //小熊等級
+     let new_adventurer_star_prince_value = parseInt(document.querySelector('#new_adventurer_star_4').value); //小熊星級
+     let new_adventurer_level_empty_value = parseInt(document.querySelector('#new_adventurer_level_5').value); //悟空等級
+     let new_adventurer_star_empty_value = parseInt(document.querySelector('#new_adventurer_star_5').value); //悟空星級
+     let new_adventurer_level_add_value = parseInt(document.querySelector('#new_adventurer_level_6').value); //加加林等級
+     let new_adventurer_star_add_value = parseInt(document.querySelector('#new_adventurer_star_6').value); //加加林星級
+
+
+
+
+
+     let adventurerSelect =document.querySelector('#adventurer').value;
+
+
+    //最終屬性生命力
+    let result1 = table2_1_value*(100+table1_1_value)*(100+table1_4_value)*table4_2_value/10000;
+     if (isNaN(result1)) {
+         result1 = 0;
+     }else{
+        result1 = result1.toFixed(2);
+     }
+     document.querySelector("#result1").innerText=result1;
+
+    //最終屬性攻擊力
+    let result2 = table2_2_value*(100+table1_2_value)*(100+table1_5_value)*table4_1_value/10000;
+     if (isNaN(result2)) {
+         result2 = 0;
+     }else{
+        result2 = result2.toFixed(2);
+     }
+     document.querySelector("#result2").innerText=result2;
+
+     //最終屬性防禦力
+    let result3 = table2_3_value*(1+table1_3_value/100)*(1+table1_6_value/100)*table4_3_value;
+     if (isNaN(result3)) {
+         result3 = 0;
+     }else{
+        result3 = result3.toFixed(2);
+     }
+     document.querySelector("#result3").innerText=result3;
+
+
+    //計算原始加成（攻擊 生命）  ['10', '20', '40', '60', '70', '80', '90']
+
+    let hp_add = 0;
+    let pow_add = 0;
+
+    let plus_arr =  [];
+    plus_arr = plus(adventurer_level_girl_value,adventurer_star_girl_value,adventurer_girl,adventurerSelect=='龍女');
+    hp_add += plus_arr[0];
+    pow_add += plus_arr[1];
+
+    plus_arr = plus(adventurer_level_pig_value,adventurer_star_pig_value,adventurer_pig,adventurerSelect=='豬');
+    hp_add += plus_arr[0];
+    pow_add += plus_arr[1];
+
+    plus_arr = plus(adventurer_level_panda_value,adventurer_star_panda_value,adventurer_panda,adventurerSelect=='熊貓');
+    hp_add += plus_arr[0];
+    pow_add += plus_arr[1];
+
+    plus_arr = plus(adventurer_level_prince_value,adventurer_star_prince_value,adventurer_prince,adventurerSelect=='小熊');
+    hp_add += plus_arr[0];
+    pow_add += plus_arr[1];
+
+    plus_arr = plus(adventurer_level_empty_value,adventurer_star_empty_value,adventurer_empty,adventurerSelect=='悟空');
+    hp_add += plus_arr[0];
+    pow_add += plus_arr[1];
+
+    plus_arr = plus(adventurer_level_add_value,adventurer_star_add_value,adventurer_add,adventurerSelect=='加加林');
+    hp_add += plus_arr[0];
+    pow_add += plus_arr[1];
+
+
+    document.querySelector('#adventurer_plus_0').innerText = hp_add + '%';
+    document.querySelector('#adventurer_plus_1').innerText = pow_add + '%';
+
+
+    //計算新加成（攻擊 生命）  ['10', '20', '40', '60', '70', '80', '90']
+
+    let new_hp_add = 0;
+    let new_pow_add = 0;
+
+    plus_arr = plus(new_adventurer_level_girl_value,new_adventurer_star_girl_value,adventurer_girl,adventurerSelect=='龍女');
+    new_hp_add += plus_arr[0];
+    new_pow_add += plus_arr[1];
+
+    plus_arr = plus(new_adventurer_level_pig_value,new_adventurer_star_pig_value,adventurer_pig,adventurerSelect=='豬');
+    new_hp_add += plus_arr[0];
+    new_pow_add += plus_arr[1];
+
+    plus_arr = plus(new_adventurer_level_panda_value,new_adventurer_star_panda_value,adventurer_panda,adventurerSelect=='熊貓');
+    new_hp_add += plus_arr[0];
+    new_pow_add += plus_arr[1];
+
+    plus_arr = plus(new_adventurer_level_prince_value,new_adventurer_star_prince_value,adventurer_prince,adventurerSelect=='小熊');
+    new_hp_add += plus_arr[0];
+    new_pow_add += plus_arr[1];
+
+    plus_arr = plus(new_adventurer_level_empty_value,new_adventurer_star_empty_value,adventurer_empty,adventurerSelect=='悟空');
+    new_hp_add += plus_arr[0];
+    new_pow_add += plus_arr[1];
+
+    plus_arr = plus(new_adventurer_level_add_value,new_adventurer_star_add_value,adventurer_add,adventurerSelect=='加加林');
+    new_hp_add += plus_arr[0];
+    new_pow_add += plus_arr[1];
+
+
+    document.querySelector('#adventurer_new_plus_0').innerText = new_hp_add + '%';
+    document.querySelector('#adventurer_new_plus_1').innerText = new_pow_add + '%';
+
+
+  
+    //冒險者加成前屬性	 
+
+    let  adventurer_hp =  table3_1_value;
+    let  adventurer_pow =  table3_2_value;
+    let  adventurer_def =  table3_3_value;
+
+
+    //加成前生命
+    let adventurer_base_1 = (adventurer_hp*100)/(1*100+hp_add);
+    if(isNaN(adventurer_base_1) || adventurer_base_1<0 ){
+        adventurer_base_1 = 0;
+        
+    }
+    document.querySelector('#adventurer_base_1').innerText =  parseFloat(adventurer_base_1).toFixed(2);
+
+    //加成前攻擊
+    let adventurer_base_2 = (adventurer_pow*100)/(1*100+hp_add);
+    if(isNaN(adventurer_base_2) || adventurer_base_2<0 ){
+        adventurer_base_2 = 0;
+        
+    }
+    document.querySelector('#adventurer_base_2').innerText =  parseFloat(adventurer_base_2).toFixed(2);
+
+
+
+    //加成前防禦
+    let adventurer_base_3 = adventurer_def;
+    if(isNaN(adventurer_base_3) || adventurer_base_3<0 ){
+        adventurer_base_3 = 0;
+        
+    }
+    document.querySelector('#adventurer_base_3').innerText =  adventurer_base_3;
+
+
+    //冒險者加成後屬性
+     
+    let adventurer_new_hp = parseFloat((adventurer_base_1*(1*100+new_hp_add))/100);
+     document.querySelector('#adventurer_new_1').innerText =  adventurer_new_hp.toFixed(2);
+    //加成前生命
+
+
+    //加成後攻擊
+    let adventurer_new_pow = parseFloat((adventurer_base_2*(1*100+new_pow_add))/100);
+    document.querySelector('#adventurer_new_2').innerText =   adventurer_new_pow.toFixed(2);
+
+    //加成前防禦
+    let adventurer_new_def = adventurer_base_3;
+    document.querySelector('#adventurer_new_3').innerText =  adventurer_base_3;
+
+
+
+    let  before_hp =  table2_1_value - table3_1_value;
+    let  before_pow =  table2_2_value - table3_2_value;
+    let  before_def =  table2_3_value - table3_3_value;
+
+    let new_hp = before_hp +  adventurer_new_hp;
+    let new_pow =  before_pow + adventurer_new_pow;
+    let new_def = before_def + adventurer_new_def;
+
+    //最終新屬性生命力
+    let result4 = new_hp*(1+table1_1_value/100)*(1+table1_4_value/100)*table4_2_value;
+     if (isNaN(result4)) {
+         result4 = 0;
+     }else{
+        result4 = result4.toFixed(2);
+     }
+     document.querySelector("#result4").innerText=result4;
+
+    //最終屬性攻擊力
+    let result5 = new_pow*(1+table1_2_value/100)*(1+table1_5_value/100)*table4_1_value;
+     if (isNaN(result5)) {
+         result5 = 0;
+     }else{
+        result5 = result5.toFixed(2);
+     }
+     document.querySelector("#result5").innerText=result5;
+
+     //最終屬性防禦力
+    let result6 = new_def*(1+table1_3_value/100)*(1+table1_6_value/100)*table4_3_value;
+     if (isNaN(result6)) {
+         result6 = 0;
+     }else{
+        result6 = result6.toFixed(2);
+     }
+     document.querySelector("#result6").innerText=result6;
+
+
+
+    if(is_storage){
+            localStorage.setItem('table1_1_value', table1_1_value);
+        localStorage.setItem('table1_2_value',table1_2_value); //攻擊力百分比
+        localStorage.setItem('table1_3_value',table1_3_value); //防禦力百分比
+        localStorage.setItem('table1_4_value',table1_4_value); //全局生命值百分比
+        localStorage.setItem('table1_5_value',table1_5_value);//全局攻擊力百分比
+        localStorage.setItem('table1_6_value',table1_6_value); //全局防禦力百分比
+        localStorage.setItem('table2_1_value',table2_1_value); //生命值（加冒險者）
+        localStorage.setItem('table2_2_value',table2_2_value); //攻擊力（加冒險者）
+        localStorage.setItem('table2_3_value',table2_3_value); //防禦力（加冒險者）
+        localStorage.setItem('table3_1_value',table3_1_value); //冒險者生命值
+        localStorage.setItem('table3_2_value',table3_2_value); //冒險者攻擊力
+        localStorage.setItem('table3_3_value',table3_3_value);//冒險者防禦力
+        localStorage.setItem('table4_1_value',table4_1_value); //資質力量
+        localStorage.setItem('table4_2_value',table4_2_value);//資質體質
+        localStorage.setItem('table4_3_value',table4_3_value); //資質耐力
+        localStorage.setItem('adventurer_level_girl_value',adventurer_level_girl_value); //龍女等級
+        localStorage.setItem('adventurer_star_girl_value',adventurer_star_girl_value); //龍女星級
+        localStorage.setItem('adventurer_level_pig_value',adventurer_level_pig_value); //豬等級
+        localStorage.setItem('adventurer_star_pig_value',adventurer_star_pig_value); //豬星級
+        localStorage.setItem('adventurer_level_panda_value',adventurer_level_panda_value); //熊貓等級
+        localStorage.setItem('adventurer_star_panda_value',adventurer_star_panda_value); //熊貓星級
+        localStorage.setItem('adventurer_level_prince_value',adventurer_level_prince_value); //小熊等級
+        localStorage.setItem('adventurer_star_prince_value ',adventurer_star_prince_value); //小熊星級
+        localStorage.setItem('adventurer_level_empty_value',adventurer_level_empty_value); //悟空等級
+        localStorage.setItem('adventurer_star_empty_value',adventurer_star_empty_value); //悟空星級
+        localStorage.setItem('adventurer_level_add_value',adventurer_level_add_value); //加加林等級
+        localStorage.setItem('adventurer_star_add_value',adventurer_star_add_value); //加加林星級
+
+        localStorage.setItem('new_adventurer_level_girl_value',new_adventurer_level_girl_value); //龍女等級
+        localStorage.setItem('new_adventurer_star_girl_value',new_adventurer_star_girl_value); //龍女星級
+        localStorage.setItem('new_adventurer_level_pig_value',new_adventurer_level_pig_value); //豬等級
+        localStorage.setItem('new_adventurer_star_pig_value',new_adventurer_star_pig_value); //豬星級
+        localStorage.setItem('new_adventurer_level_panda_value',new_adventurer_level_panda_value);//熊貓等級
+        localStorage.setItem('new_adventurer_star_panda_value',new_adventurer_star_panda_value ); //熊貓星級
+        localStorage.setItem('new_adventurer_level_prince_value',new_adventurer_level_prince_value); //小熊等級
+        localStorage.setItem('new_adventurer_star_prince_value',new_adventurer_star_prince_value); //小熊星級
+        localStorage.setItem('new_adventurer_level_empty_value',new_adventurer_level_empty_value);//悟空等級
+        localStorage.setItem('new_adventurer_star_empty_value',new_adventurer_star_empty_value); //悟空星級
+        localStorage.setItem(' new_adventurer_level_add_value',new_adventurer_level_add_value); //加加林等級
+        localStorage.setItem('new_adventurer_star_add_value',new_adventurer_star_add_value); //加加林星級
+        localStorage.setItem('adventurerSelect',adventurerSelect); //加加林星級
+    }
+
+
+
+}
+
+
+function plus(adventurer_level,adventurer_star,adventurer_object , is_use){
+    let level_value =adventurer_object.level_value;
+    let star_value =adventurer_object.star_value;
+    let final_pow = 0;
+    let final_hp = 0;
+
+    let level_arr = [10, 20, 30,40, 60, 70, 80, 90];
+
+    for (let index = 0; index < level_arr.length; index++) {
+        let cur_level = level_arr[index];
+
+        if(adventurer_level >=cur_level &&  (is_use || adventurer_object.level[cur_level].all)){
+            if(adventurer_object.level[cur_level].type == 'pow'){
+                final_pow += level_value*100;
+            }else{
+                final_hp += level_value*100;
+            }
+
+        }
+
+    }
+
+    let star_arr = [1, 3, 6, 9];
+    for (let index = 0; index < star_arr.length; index++) {
+        let cur_star = star_arr[index];
+
+        if(adventurer_star >=cur_star &&  (is_use || adventurer_object.star[cur_star].all)){
+            if(adventurer_object.star[cur_star].type == 'pow'){
+                final_pow += star_value*100;
+            }else{
+                final_hp += star_value*100;
+            }
+
+        }
+
+    }    
+    
+    return [final_hp,final_pow];
+
+}
+ </script>
+</body></html>
