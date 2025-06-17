@@ -471,7 +471,7 @@ function cal(is_storage =true) {
     document.querySelector('#adventurer_base_1').innerText =  parseFloat(adventurer_base_1).toFixed(2);
 
     //加成前攻擊
-    let adventurer_base_2 = (adventurer_pow*100)/(1*100+hp_add);
+    let adventurer_base_2 = (adventurer_pow*100)/(1*100+pow_add);
     if(isNaN(adventurer_base_2) || adventurer_base_2<0 ){
         adventurer_base_2 = 0;
         
