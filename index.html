@@ -926,14 +926,12 @@ function cal(is_storage =true) {
     let result1 = table2_1_value*(100+table1_1_value)*(100+table1_4_value)*table4_2_value/10000;
      if (isNaN(result1)) {
          result1 = 0;
-     }else{
-        result1 = result1.toFixed(2);
      }
     //document.querySelector("#result1").innerText=result1;
     if(result1 > 1000)
         document.querySelector('#result1').innerText =  Math.floor(result1/10)/100 + 'B';
     else if(result1 < 1)
-        document.querySelector('#result1').innerText =   Math.ceil(result1*1000);
+        document.querySelector('#result1').innerText =   Math.floor(result1*100000)/100 + 'K';
     else
         document.querySelector('#result1').innerText =  Math.floor(result1*100)/100 + 'M';
 
@@ -941,14 +939,12 @@ function cal(is_storage =true) {
     let result2 = table2_2_value*(100+table1_2_value)*(100+table1_5_value)*table4_1_value/10000;
      if (isNaN(result2)) {
          result2 = 0;
-     }else{
-        result2 = result2.toFixed(2);
      }
     //document.querySelector("#result2").innerText=result2;
     if(result2 > 1000)
         document.querySelector('#result2').innerText =  Math.floor(result2/10)/100 + 'B';
     else if(result2 < 1)
-        document.querySelector('#result2').innerText =   Math.ceil(result2*1000);
+        document.querySelector('#result2').innerText =   Math.floor(result2*100000)/100 + 'K';
     else
         document.querySelector('#result2').innerText =  Math.floor(result2*100)/100 + 'M';
 
@@ -956,14 +952,12 @@ function cal(is_storage =true) {
     let result3 = table2_3_value*(1+table1_3_value/100)*(1+table1_6_value/100)*table4_3_value;
      if (isNaN(result3)) {
          result3 = 0;
-     }else{
-        result3 = result3.toFixed(2);
      }
     //document.querySelector("#result3").innerText=result3;
     if(result3 > 1000)
         document.querySelector('#result3').innerText =  Math.floor(result3/10)/100 + 'B';
     else if(result3 < 1)
-        document.querySelector('#result3').innerText =   Math.ceil(result3*1000);
+        document.querySelector('#result3').innerText =   Math.floor(result3*100000)/100 + 'K';
     else
         document.querySelector('#result3').innerText =  Math.floor(result3*100)/100 + 'M';
 
@@ -1219,14 +1213,12 @@ function cal(is_storage =true) {
     let result4 = new_hp*(1+table1_1_value/100)*(1+table1_4_value/100)*table4_2_value;
      if (isNaN(result4)) {
          result4 = 0;
-     }else{
-        result4 = result4.toFixed(2);
      }
      //document.querySelector("#result4").innerText=result4;
      if(result4 > 1000)
         document.querySelector('#result4').innerText =  Math.floor(result4/10)/100 + 'B';
     else if(result4 < 1)
-        document.querySelector('#result4').innerText =   Math.ceil(result4*1000);
+        document.querySelector('#result4').innerText =   Math.floor(result4*100000)/100 + 'K';
     else
         document.querySelector('#result4').innerText =  Math.floor(result4*100)/100 + 'M';
 
@@ -1234,30 +1226,26 @@ function cal(is_storage =true) {
     let result5 = new_pow*(1+table1_2_value/100)*(1+table1_5_value/100)*table4_1_value;
      if (isNaN(result5)) {
          result5 = 0;
-     }else{
-        result5 = result5.toFixed(2);
      }
      //document.querySelector("#result5").innerText=result5;
      if(result5 > 1000)
         document.querySelector('#result5').innerText =  Math.floor(result5/10)/100 + 'B';
     else if(result5 < 1)
-        document.querySelector('#result5').innerText =   Math.ceil(result5*1000);
+        document.querySelector('#result5').innerText =   Math.floor(result5*100000)/100 + 'K';
     else
-        document.querySelector('#result5').innerText =  Math.floor(result5*100)/100 + 'M';
+        document.querySelector('#result5').innerText = Math.floor(result5*100)/100 + 'M';
      
 
      //最終屬性防禦力
     let result6 = new_def*(1+table1_3_value/100)*(1+table1_6_value/100)*table4_3_value;
      if (isNaN(result6)) {
          result6 = 0;
-     }else{
-        result6 = result6.toFixed(2);
      }
      //document.querySelector("#result6").innerText=result6;
     if(result6 > 1000)
         document.querySelector('#result6').innerText =  Math.floor(result6/10)/100 + 'B';
     else if(result5 < 1)
-        document.querySelector('#result6').innerText =   Math.ceil(result6*1000);
+        document.querySelector('#result6').innerText =   Math.floor(result6*1000);
     else
         document.querySelector('#result6').innerText =  Math.floor(result6*100)/100 + 'M';
 
