@@ -145,7 +145,7 @@
                             <td class="s5" dir="ltr"><input id="table1_5" type="number" name="table_1_5_data" list="1_5" style="width: 100px;">%</td>
                             <td class="s7" dir="ltr"><input id="table1_6" type="number" name="table_1_6_data" list="1_6" style="width: 100px;">%</td>
                             <td></td>
-                            <td class="s11"></td><td class="s11"></td>
+                            <td class="s11">&nbsp;&nbsp;&nbsp;新配置</td><td class="s11"></td>
                             <td class="s11"></td><td class="s11"></td>
                             <td class="s11"></td><td class="s11"></td>
                             <td class="s11"></td><td class="s12"></td>
@@ -291,7 +291,7 @@
                         <tr style="height: 30px">
                             <th id="571156790R7" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th>
                             <td></td>
-                            <td class="s19" dir="ltr"></td>
+                            <td class="s19" dir="ltr">冒險者(原始)</td>
                             <td class="s13"></td>
                             <td class="s13"></td>
                             <td></td>
@@ -316,9 +316,9 @@
                         <tr style="height: 30px">
                             <th id="571156790R8" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th>
                             <td class="s0"></td>
-                            <td class="s1" dir="ltr">冒險者生命值</td>
-                            <td class="s1" dir="ltr">冒險者攻擊力</td>
-                            <td class="s2" dir="ltr">冒險者防禦力</td>
+                            <td class="s1" dir="ltr">生命值</td>
+                            <td class="s1" dir="ltr">攻擊力</td>
+                            <td class="s2" dir="ltr">防禦力</td>
                             <td class="s14"></td>
                             <td class="s15" dir="ltr"><div style="display:flex; vertical-align:middle"><div>生命值</div></div></td>
                             <td class="s15" dir="ltr"><div style="display:flex; vertical-align:middle"><div>攻擊力</div></div></td>
@@ -344,9 +344,10 @@
                             <td class="s0"></td><td class="s5" dir="ltr"><span id="table3_1" type="number" name="table_3_1_data" list="3_1" style="width: 115px;" ></span></td>
                             <td class="s5" dir="ltr"><span id="table3_2" type="number" name="table_3_2_data" list="3_2" style="width: 115px;" ></span></td>
                             <td class="s7" dir="ltr"><span id="table3_3" type="number" name="table_3_3_data" list="3_3" style="width: 115px;"></span></td>
-                            <td class="s14"></td><td class="s17" dir="ltr"><span id="adventurer_new_1">18.12</span></td>
-                            <td class="s17" dir="ltr"><span id="adventurer_new_2">4.75</span></td>
-                            <td class="s18" dir="ltr"><span id="adventurer_new_3">0.5636</span></td>
+                            <td class="s14"></td>
+							<td class="s27" dir="ltr"><span id="adventurer_new_1">18.12</span></td>
+                            <td class="s27" dir="ltr"><span id="adventurer_new_2">4.75</span></td>
+                            <td class="s28" dir="ltr"><span id="adventurer_new_3">0.5636</span></td>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -392,7 +393,7 @@
                     <tr style="height: 30px">
                         <th id="571156790R11" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th>
                         <td></td><td class="s13">冒險者資質</td><td class="s13">
-                            <select id="adventurer" name="adventurer" style="width: 60px;">
+                            登場:<select id="adventurer" name="adventurer" style="width: 60px;">
                                 <option value="龍女">龍女</option>
                                 <option value="加加林">加加林</option>
                                 <option value="悟空">悟空</option>
@@ -576,11 +577,11 @@
                     </tr>
                     <tr style="height: 30px">
                         <th id="571156790R18" style="height: 30px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 30px"></div></th>
-                        <td class="s22"></td><td class="s25"><span id="result1">1522.22</span></td>
-                        <td class="s25"><span id="result2">328.09</span></td><td class="s26"><span id="result3">18.75</span></td>
-                        <td class="s14"></td><td class="s27"><span id="result4">1522.22</span></td>
-                        <td class="s27"><span id="result5">328.09</span></td>
-                        <td class="s28"><span id="result6">18.75</span></td>
+                        <td class="s22"></td><td class="s25"><span id="result1">0</span></td>
+                        <td class="s25"><span id="result2">0</span></td><td class="s26"><span id="result3">0</span></td>
+                        <td class="s14"></td><td class="s27"><span id="result4">0</span></td>
+                        <td class="s27"><span id="result5">0</span></td>
+                        <td class="s28"><span id="result6">0</span></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -882,7 +883,7 @@ function cal(is_storage =true) {
      }
     //document.querySelector("#result1").innerText=result1;
     if(result1 > 1000)
-        document.querySelector('#result1').innerText =  Math.floor(result1)/1000 + 'B';
+        document.querySelector('#result1').innerText =  Math.floor(result1/10)/100 + 'B';
     else if(result1 < 1)
         document.querySelector('#result1').innerText =   Math.ceil(result1*1000);
     else
@@ -897,7 +898,7 @@ function cal(is_storage =true) {
      }
     //document.querySelector("#result2").innerText=result2;
     if(result2 > 1000)
-        document.querySelector('#result2').innerText =  Math.floor(result2)/1000 + 'B';
+        document.querySelector('#result2').innerText =  Math.floor(result2/10)/100 + 'B';
     else if(result2 < 1)
         document.querySelector('#result2').innerText =   Math.ceil(result2*1000);
     else
@@ -912,7 +913,7 @@ function cal(is_storage =true) {
      }
     //document.querySelector("#result3").innerText=result3;
     if(result3 > 1000)
-        document.querySelector('#result3').innerText =  Math.floor(result3)/1000 + 'B';
+        document.querySelector('#result3').innerText =  Math.floor(result3/10)/100 + 'B';
     else if(result3 < 1)
         document.querySelector('#result3').innerText =   Math.ceil(result3*1000);
     else
@@ -1175,7 +1176,7 @@ function cal(is_storage =true) {
      }
      //document.querySelector("#result4").innerText=result4;
      if(result4 > 1000)
-        document.querySelector('#result4').innerText =  Math.floor(result4)/1000 + 'B';
+        document.querySelector('#result4').innerText =  Math.floor(result4/10)/100 + 'B';
     else if(result4 < 1)
         document.querySelector('#result4').innerText =   Math.ceil(result4*1000);
     else
@@ -1190,7 +1191,7 @@ function cal(is_storage =true) {
      }
      //document.querySelector("#result5").innerText=result5;
      if(result5 > 1000)
-        document.querySelector('#result5').innerText =  Math.floor(result5)/1000 + 'B';
+        document.querySelector('#result5').innerText =  Math.floor(result5/10)/100 + 'B';
     else if(result5 < 1)
         document.querySelector('#result5').innerText =   Math.ceil(result5*1000);
     else
@@ -1206,7 +1207,7 @@ function cal(is_storage =true) {
      }
      //document.querySelector("#result6").innerText=result6;
     if(result6 > 1000)
-        document.querySelector('#result6').innerText =  Math.floor(result6)/1000 + 'B';
+        document.querySelector('#result6').innerText =  Math.floor(result6/10)/100 + 'B';
     else if(result5 < 1)
         document.querySelector('#result6').innerText =   Math.ceil(result6*1000);
     else
